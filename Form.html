@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="ajax.js"></script>
+</head>
+<body>
+    <label>Country: </label>
+    <select name="country" id="country">
+        <option value="us">United States</option>
+        <option value="fr">France</option>
+        <option value="de">GERMANY</option>
+        <option value="es">Spain</option>
+    </select>
+    <br>
+    <label>Zip code: </label>
+    <input type="text"  id="postalDode">
+    <br>
+    <button name="send" id="sendData">Send</button>
+    <br>
+    <div id="message"></div>
+    <table id="zipData">
+        <thead>
+            <tr>
+                <th>Place name</th>
+                <th>Longitude</th>
+                <th>Latitude</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+</html>
